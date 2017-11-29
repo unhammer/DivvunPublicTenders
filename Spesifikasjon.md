@@ -86,7 +86,7 @@ All grammatikkontrollfunksjonalitet er definert av og blir levert av biblioteket
 * libarchive >=3.2.2-2
 * hfst-ospell-dev >=0.4.5 (compiled with either libxml or tinyxml)
 
-API-en for `divvun-gramcheck` er definert i [checker.hpp](https://github.com/divvun/divvun-gramcheck/blob/master/src/checker.hpp). All kode er open kjeldekode, og anten C eller C++. Koden byggjer og fungerer på både Windows og macOS (og Linux).
+API-en for `divvun-gramcheck` er definert i [checker.hpp](https://github.com/divvun/divvun-gramcheck/blob/master/src/checker.hpp) / [checkertypes.hpp](https://github.com/divvun/divvun-gramcheck/blob/master/src/checkertypes.hpp). All kode er open kjeldekode, og anten C eller C++. Koden byggjer og fungerer på både Windows og macOS (og Linux).
 
 # Språklege ressursar
 

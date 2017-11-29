@@ -13,7 +13,7 @@ Hovudkrav
 Korleis skal grammatikkontrollen oppføra seg?
 
 * skal fungera med alle samiske språk
-  * sekundært: skal fungera med alle språk vi har (dvs inkl slike som ikkje MS har på lista si
+  * sekundært: skal fungera med alle språk vi har (dvs inkl slike som ikkje MS har på lista si)
 * skal fungera på Windows og macOS
 * dersom han blir bygd med office.js eller tilsvarande teknologi, så må han kunna fungera utan nett
 * avsnitt inn, liste med feil attende, kvar feil som start- og sluttpunkt i avsnittet
