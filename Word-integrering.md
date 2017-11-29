@@ -16,7 +16,7 @@ Korleis skal grammatikkontrollen oppføra seg?
   * sekundært: skal fungera med alle språk vi har (dvs inkl slike som ikkje MS har på lista si)
 * skal fungera på Windows og macOS
 * dersom han blir bygd med office.js eller tilsvarande teknologi, så må han kunna fungera utan nett
-* avsnitt inn, liste med feil attende, kvar feil som start- og sluttpunkt i avsnittet
+* må kunna senda avsnitt inn til divvun-gramcheck-biblioteket og tolka ei returnert liste med feil, der kvar feil refererer til start- og sluttpunkt i avsnittet
 * støtta forslag; forslaga skal innehalda:
   * kort tittel
   * eitt eller fleire forslag
