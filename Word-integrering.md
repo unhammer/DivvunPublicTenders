@@ -12,6 +12,7 @@ Hovudkrav
 
 Korleis skal grammatikkontrollen oppføra seg?
 
+* skal byggja på biblioteket laga av [Trigram](https://trigram.no/) i fase 1 av prosjektet
 * skal fungera med alle samiske språk
   * sekundært: skal fungera med alle språk vi har (dvs inkl slike som ikkje MS har på lista si)
 * skal fungera på Windows og macOS
@@ -32,7 +33,6 @@ Korleis skal grammatikkontrollen oppføra seg?
     med stavekontroll i Word for Mac)
 * koden skal vera open
 * den ferdige koden skal vera © UiT
-* skal byggja på biblioteket laga av [Trigram](https://trigram.no/) i fase 1 av prosjektet
 
 Alt i alt: han skal mest mogleg likna på den vanlege grammatikkontrollen.
 
