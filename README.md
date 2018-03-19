@@ -19,19 +19,7 @@ specified in the linked documents. The tender covers the following tasks:
       development team in Canada, organised through AltLab at the University of Alberta
 * system wide spelling checker for macOS
 * system wide spelling checker for Windows 8+, in cooperation with Tino Didriksen
-* **GT:** analyseprogram for lingvistar:
-    * lim inn tekst, få analyse ut i eit anna vindauge:
-        * trestruktur
-        * Ulike alternativ for formattering av analysen
-        * kopier analysen i passande format, slik at ein enkelt kan lima inn i andre program (som døme når ein skriv artiklar m.m.)
-        * **GT** si rolle i dette prosjektet gjeld utforminga av grensesnittet, og testing og vurdering av programmet
-    * automatisk oppdaterte språkpakker via Páhkat
-    * bruker libdivvun + zcheck-filer
-    * versjon både for mac, win og linux
-    * jf [Apertium Simpleton](http://wiki.apertium.org/wiki/Apertium_Simpleton_UI)
-        * det bør vera nok med [dette](https://apertium.projectjj.com/pkgs.php)
-* Páhkat-klient for **iOS**?
-* Páhkat-klient for **Android**?
+* [Graphical analysis app for linguists](GUITextAnalyser.md)
 * tekst-til-tale basert på open kjeldekode?
     * mac, linux, win
     * libdivvun som kjerne, med tilpassingar til TTS-behov
