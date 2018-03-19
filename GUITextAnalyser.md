@@ -1,16 +1,29 @@
 # Graphical text analysis application for linguists
 
 * paste text, get analysed text in a different window/pane:
-    * trestruktur
-    * Ulike alternativ for formattering av analysen
-    * kopier analysen i passande format, slik at ein enkelt kan lima inn i andre program (som døme når ein skriv artiklar m.m.)
-testing og vurdering av programmet
-* automatisk oppdaterte språkpakker via Páhkat
-* a graphical wrapper around libdivvun + zcheck files:
+    * syntactic tree structure/dependency tree
+    * there should be different formatting/rendering options for the analysis
+      output (see mockup below)
+    * it should be possible to copy the displayed analysis in a suitable format
+      (specified in the app settings), so that one can easily paste it into
+      other applications, e.g. when writing academic papers
+* analysers/processing pipelines (one pr language) should be automatically
+  updated via the Páhkat repository
+    * does this mean that we need/want a Páhkat client for Linux? Or could it be
+      embedded in the GUI app if this is the only use case for Páhkat on Linux?
+* the app is essentiallly a graphical wrapper around libdivvun + `zcheck` files:
     * text used as input to libdivvun in one pane
     * output appears in the other pane
-* versjon både for mac, win og linux
-* jf [Apertium Simpleton](http://wiki.apertium.org/wiki/Apertium_Simpleton_UI)
+    * processing is done as specified in the `zcheck` file for the given
+      language
+* the application should be made for all of macOS, Windows and Linux using
+  native code for the UI parts. No generic UI libraries should be used!
+  This is done to get application behavior and look&feel that properly follows
+  the guidelines and user expectations of each platform
+
+Also have a look at
+[Apertium Simpleton](http://wiki.apertium.org/wiki/Apertium_Simpleton_UI) for
+inspiration.
 
 GUI mockup:
 
@@ -25,6 +38,7 @@ GUI mockup:
     * common formats used in scientific literature
 * the default format should be setable in the app settings
 * the mockup above is in no way binding, it is just to visualise the basic functionality of the app
+* the file suffix `zcheck` is used in this specification for the file containing the linguistic data and the actual pipeline specifications, as that is the suffix used for a similar pipeline file for grammar checking. In the final app the file suffix could be different.
 
 # Target user group
 
