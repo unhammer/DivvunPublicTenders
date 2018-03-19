@@ -1,7 +1,6 @@
-# Grammar checker public tender
+# Divvun public tender 2018
 
-This project contains public documents related to the grammar checker public tender. More specifically, it contains:
+This project contains public documents related to the Divvun public tender. More specifically, it contains:
 
-* [Overview](Word-integrering.md) (in Norwegian for now)
-* [Specification](Spesifikasjon.md) (in Norwegian for now)
-* [Code Review Public Tender](CodeReview.md)
+* [Grammar Checker Word integration](Word-integrering.md) (in Norwegian for now)
+* [Grammar checker UI and behavior](Spesifikasjon.md) (in Norwegian for now)

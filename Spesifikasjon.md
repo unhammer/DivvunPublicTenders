@@ -73,7 +73,7 @@ Windows-versjonen er den klart mest oversiktlege og informative. Vi ynskjer ein 
 
 ## Andre ting
 
-* all kode skal sjølvsagt vera Unicode-sikker, inkl støtte for andre plan enn BMP
+* all kode skal sjølvsagt vera Unicode-sikker, inkl støtte for alle plan, ikkje berre BMP.
 
 # Integrering mot `divvun-gramcheck`
 
@@ -87,6 +87,11 @@ All grammatikkontrollfunksjonalitet er definert av og blir levert av biblioteket
 * hfst-ospell-dev >=0.4.5 (compiled with either libxml or tinyxml)
 
 API-en for `divvun-gramcheck` er definert i [checker.hpp](https://github.com/divvun/divvun-gramcheck/blob/master/src/checker.hpp) / [checkertypes.hpp](https://github.com/divvun/divvun-gramcheck/blob/master/src/checkertypes.hpp). All kode er open kjeldekode, og anten C eller C++. Koden byggjer og fungerer på både Windows og macOS (og Linux).
+
+# Front-end
+
+The front-end code should be based on the
+[GrammarSoft frontend code](https://github.com/GrammarSoft/proofing-gasmso), but reworked so that it can also run offline.
 
 # Språklege ressursar
 
