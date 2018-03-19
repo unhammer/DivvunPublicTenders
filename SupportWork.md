@@ -4,11 +4,12 @@ This part of the tender specifies components elligible for maintenance work
 during the contract period. The contract period for the maintenance and support
 work is **two years**.
 
-All code covered by the maintenance and support section is stored in the Divvun
-github account. The following repositories are covered by the maintenance and
-support section:
+All code covered by the maintenance and support section is stored in
+[Divvun's github](https://github.com/divvun) repositories. The following
+repositories are covered by the maintenance and
+support section of the tender:
 
-* All Pahkat components:
+* all Páhkat components:
     * [Páhkat for Windows](https://github.com/divvun/pahkat-client-windows)
     * [Páhkat for macOS](https://github.com/divvun/pahkat-client-macos)
     * [Páhkat client core](https://github.com/divvun/pahkat-client-core)
