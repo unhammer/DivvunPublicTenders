@@ -31,14 +31,15 @@ GUI mockup:
 
 # Notes
 
-* the Analysis popup menu is just a listing of the available pipelines for the selected language, as returned by libdivvun
-* Output format is a list of whatever final reformatting we choose to provide as part of the app — it should at be a reasonable selection of formats, like:
+* the **Analysis** popup menu is just a listing of the available pipelines for the selected language, as returned by libdivvun
+* **Output format** is a list of whatever final reformatting we choose to provide as part of the app — it should at be a reasonable selection of formats, like:
     * Giella (a «raw» format)
     * UD
-    * common formats used in scientific literature
-* the default format should be setable in the app settings
+    * common formats used in linguistic litterature
+    * the *default* format should be setable in the app settings
+* the **Language** popup must list all and only the languages returned by libdivvun
 * the mockup above is in no way binding, it is just to visualise the basic functionality of the app
-* the file suffix `zcheck` is used in this specification for the file containing the linguistic data and the actual pipeline specifications, as that is the suffix used for a similar pipeline file for grammar checking. In the final app the file suffix could be different.
+* the file suffix `zcheck` is used in this specification for the file containing the linguistic data and the actual pipeline specifications, as that is the suffix used for a similar pipeline file for grammar checking. In the final app the file suffix will most likely be different.
 
 # Target user group
 
