@@ -12,17 +12,6 @@ specified in the linked documents. The tender covers the following tasks:
     * export locale data in CLDR format
     * export keyboard defs in CLDR xml
 * [dictionaries for mobile phones](MobileDictionaries.md) (iOS, Android)
-    * should use majority language speech recognition (Siri, Google Assistant)
-      to look up words and expressions to translate
-    * should use speech synthesis from Acapela (or later: us) to speak out loud
-      the translated input words (only SME for now, other languages when voices are available)
-    * should use open-source OCR libraries and built-in camera to regonice
-      printed text and provide translations
-    * look-up words in text (using morphological analysis (+ disambiguation?) of input string)
-    * look-up single words / lemmas in the dictionary (standard search)
-    * dictionary content updated via a Páhkat repository
-    * the details of the user interface should be worked out in cooperation
-      between Divvun&Giellatekno and the company doing the work
 * add spell checking to the mobile keyboards (iOS and Android)
     * speller files updated via a Páhkat repository
 * add word completion and word prediction to the mobile keyboards (iOS and Android)
@@ -46,3 +35,6 @@ specified in the linked documents. The tender covers the following tasks:
 * tekst-til-tale basert på open kjeldekode?
     * mac, linux, win
     * libdivvun som kjerne, med tilpassingar til TTS-behov
+
+There is also a separate [tender admin page](TenderAdmin.md), which specifies
+some general parts of the tender process.

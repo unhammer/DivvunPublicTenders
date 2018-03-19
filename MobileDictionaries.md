@@ -16,51 +16,20 @@ Mobilklientane skal ha desse eigenskapane:
     Sma-ordboka skal innehalda sma-nob, nob-sma, sma-sme, sme-sma, osb
 * ein må kunna slå på og av dei språkpara ein er interessert i
   * døme:
-
     Om ein ikkje er interessert i sme, må ein kunna slå av sme-sma og sma-sme
-* koden skal vera open
-* den ferdige koden skal vera © UiT
 
-Utlysing
-========
 
-I heile EU/EØS-området.
-
-Utveljingskriterium
--------------------
-
-* pris
-* tidlegare røynsle
-* innahusrøynsle i relevante programmeringsspråk
-
-Utlysingsdato
--------------
-
-Tentativt hadde det vore bra å ha utlysinga klar til sommaren, med tilbodsfrist
-kring midten av august, prosjektstart 1. september. Det hadde sjølvsagt vore bra
-å starta før, men eg trur det er urealistisk.
-
-Prosjekttimeplan
-================
-
-Eg har definert milepålane i høve til starten, slik at det er lett å justera i
-tilfelle vi startar tidlegare eller seinare.
-
-Eg reknar med at dette er ein greid og relativt enkel programmeringsjobb for
-gode programmerarar.
-
-1. start:  1. september
-2. alfa:   start + 3 mnd
-3. beta:   start + 5 mnd
-4. ferdig: start + 7 mnd
-
-Akseptansekrav
-==============
-
-* koden finst på Github.com/divvun
-* koden byggjer for begge plattformar
-  * vi skal ha klart å lasta opp ein beta av ei ordbok, og sett at alt fungerer
-* koden passerer alle definerte testar
+* should use majority language speech recognition (Siri, Google Assistant)
+  to look up words and expressions to translate
+* should use speech synthesis from Acapela (or later: us) to speak out loud
+  the translated input words (only SME for now, other languages when voices are available)
+* should use open-source OCR libraries and built-in camera to regonice
+  printed text and provide translations
+* look-up words in text (using morphological analysis (+ disambiguation?) of input string)
+* look-up single words / lemmas in the dictionary (standard search)
+* dictionary content updated via a Páhkat repository
+* the details of the user interface should be worked out in cooperation
+  between Divvun&Giellatekno and the company doing the work
 
 Tekniske spesifikasjonar
 ========================
