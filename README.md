@@ -20,9 +20,7 @@ specified in the linked documents. The tender covers the following tasks:
 * system wide spelling checker for macOS
 * system wide spelling checker for Windows 8+, in cooperation with Tino Didriksen
 * [Graphical analysis app for linguists](GUITextAnalyser.md)
-* tekst-til-tale basert på open kjeldekode?
-    * mac, linux, win
-    * libdivvun som kjerne, med tilpassingar til TTS-behov
+* [open-source text-to-speech](OpenSourceTSS.md)
 
 There is also a separate [tender admin page](TenderAdmin.md), which specifies
 some general parts of the tender process.
