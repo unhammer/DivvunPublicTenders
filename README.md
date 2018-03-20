@@ -4,13 +4,8 @@ The Divvun pubic tender in 2018 covers the following components, further
 specified in the linked documents. The tender covers the following tasks:
 
 1. [Support work](SupportWork.md) for existing codebase in Github, 2 years
-1. Grammar Checker:
-    * [Word integration](Word-integrering.md) (in Norwegian for now)
-    * [Grammar checker UI and behavior](Spesifikasjon.md) (in Norwegian for now)
-1. Support for CLDR export to the keyboard generation infra
-    * support for specifying locale data in a simple (yaml) format
-    * export locale data in CLDR format
-    * export keyboard defs in CLDR xml
+1. [Grammar Checker integration with MS Office](GrammarChecker.md)
+1. Extensions to the [keyboard infra](CLDRSupport.md)
 1. [Dictionaries for mobile phones](MobileDictionaries.md) (iOS, Android)
 1. Spell checking for our mobile keyboards (iOS and Android)
     * speller files updated via a Páhkat repository
@@ -24,5 +19,5 @@ specified in the linked documents. The tender covers the following tasks:
 1. [Graphical analysis app for linguists](GUITextAnalyser.md)
 1. [Open-source text-to-speech](OpenSourceTSS.md)
 
-There is also a separate [tender admin page](TenderAdmin.md), which specifies
-some general parts of the tender process.
+The [tender admin page](TenderAdmin.md) specifies the tender process, selection
+criteria, qualifying requirements etc.

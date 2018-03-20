@@ -4,7 +4,7 @@
 
 * macOS
 * Linux
-* Windows (does most likely require an API license from MS)
+* Windows (will most likely require an API license from MS)
 * Android
 * iOS
 
