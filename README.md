@@ -12,6 +12,7 @@ specified in the linked documents. The tender covers the following tasks:
 1. [System wide spelling checkers](SystemSpellCheck.md) (*TBD*)
 1. [Graphical analysis app for linguists](GUITextAnalyser.md) (*done*)
 1. [Open-source text-to-speech](OpenSourceTSS.md) (*TBD*)
+1. [REST/GraphQL API Consultancy](REST_API.md) (*TBW*)
 
 The [tender admin page](TenderAdmin.md) specifies the tender process, selection
 criteria, qualifying requirements etc.
