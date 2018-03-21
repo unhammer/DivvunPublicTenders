@@ -23,13 +23,18 @@ Mobilklientane skal ha desse eigenskapane:
   to look up words and expressions to translate
 * should use speech synthesis from Acapela (or later: us) to speak out loud
   the translated input words (only SME for now, other languages when voices are available)
-* should use open-source OCR libraries and built-in camera to regonice
+* should use open-source OCR libraries and built-in camera to recognice
   printed text and provide translations
 * look-up words in text (using morphological analysis (+ disambiguation?) of input string)
 * look-up single words / lemmas in the dictionary (standard search)
 * dictionary content updated via a Páhkat repository
 * the details of the user interface should be worked out in cooperation
   between Divvun&Giellatekno and the company doing the work
+* fuzzy match, possibly based on our speller technology, frequency ranked
+* Korp lookup if corpus is available, and you have Internnet connection
+* paradigm generation (off-line, fst-based)
+
+See also the [Waldyo](http://waldayu.org/) and mothertongues.org
 
 Tekniske spesifikasjonar
 ========================
