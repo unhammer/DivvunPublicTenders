@@ -40,6 +40,10 @@ GUI mockup:
 * the **Language** popup must list all and only the languages returned by libdivvun
 * the mockup above is in no way binding, it is just to visualise the basic functionality of the app
 * the file suffix `zcheck` is used in this specification for the file containing the linguistic data and the actual pipeline specifications, as that is the suffix used for a similar pipeline file for grammar checking. In the final app the file suffix will most likely be different.
+* command line interface, to allow piping text into it, possibly also analysis results out of it
+* other possible functionality:
+    * display more morphophonological info and other info based on lexc entry
+    * Korp searches triggered from analysis window (e.g. to see other uses of the lemma)
 
 # Target user group
 
