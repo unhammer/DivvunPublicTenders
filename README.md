@@ -1,6 +1,6 @@
 # Divvun public tender 2018
 
-The Divvun pubic tender in 2018 covers the following components, further
+The Divvun public tender in 2018 covers the following components, further
 specified in the linked documents. The tender covers the following tasks:
 
 1. [Support work](SupportWork.md) for existing codebase in Github (*done*)
