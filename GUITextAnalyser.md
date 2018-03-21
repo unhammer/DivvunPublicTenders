@@ -44,6 +44,11 @@ GUI mockup:
 * other possible functionality:
     * display more morphophonological info and other info based on lexc entry
     * Korp searches triggered from analysis window (e.g. to see other uses of the lemma)
+    * extract frequency lists? Other linguistic analysis tools?
+
+See also the
+[Oslo LAP](https://www.mn.uio.no/ifi/english/research/projects/clarino/) web
+app.
 
 # Target user group
 
