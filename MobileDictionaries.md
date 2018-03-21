@@ -34,7 +34,11 @@ Mobilklientane skal ha desse eigenskapane:
 * Korp lookup if corpus is available, and you have Internnet connection
 * paradigm generation (off-line, fst-based)
 
-See also the [Waldyo](http://waldayu.org/) and mothertongues.org
+See also [Mothertoungues.org](http://mothertongues.org/).
+
+Innhaldsoppdateringar:
+* via pahkat
+* default: stabil, kvar fjerde veke/ein gong i veka
 
 Tekniske spesifikasjonar
 ========================
