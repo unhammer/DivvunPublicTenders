@@ -25,3 +25,21 @@ support section of the tender:
   support work specified as part of the original development work
 * new feature requests for all existing code, and newly developed code after
   completion. Billed by the hour.
+
+## Requirements
+
+* solid C/C++ experience
+* solid Rust experience
+* solid Python experience
+* solid iOS programming experience
+* solid Android programming experience
+* solid macOS programming experience
+* solid Windows programming experience
+* must have prior experience with building keyboards and keyboard apps
+
+**solid** = reference to at least five independent projects involving the language or platform in question.
+
+## Selection criteria
+
+* experience with similar work — XX%
+* price — XX%
