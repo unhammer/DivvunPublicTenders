@@ -42,4 +42,4 @@ support section of the tender:
 ## Selection criteria
 
 * experience with similar work — XX%
-* price — XX%
+* price in NOK/hour — XX%
