@@ -1,9 +1,6 @@
-Skisse til prosjekt for å utvikla mobilklientar for ordbøkene våre.
+# Dictionary apps for mobile phones and pads
 
-Eigenskapar
-===========
-
-Mobilklientane skal ha desse eigenskapane:
+## Targeted features
 
 * bruka analysatorane våre (hfst) for lemmatisering + analyse
 * vera raske å slå opp i
@@ -11,14 +8,11 @@ Mobilklientane skal ha desse eigenskapane:
 * lettbrukte
 * iOS og Android
 * ein app for kvart språk, med alle ordbøker til og frå det språket
-  * døme:
-
+  * døme:  
     Sma-ordboka skal innehalda sma-nob, nob-sma, sma-sme, sme-sma, osb
 * ein må kunna slå på og av dei språkpara ein er interessert i
-  * døme:
+  * døme:  
     Om ein ikkje er interessert i sme, må ein kunna slå av sme-sma og sma-sme
-
-
 * should use majority language speech recognition (Siri, Google Assistant)
   to look up words and expressions to translate
 * should use speech synthesis from Acapela (or later: us) to speak out loud
@@ -34,14 +28,14 @@ Mobilklientane skal ha desse eigenskapane:
 * Korp lookup if corpus is available, and you have Internnet connection
 * paradigm generation (off-line, fst-based)
 
-See also [Mothertoungues.org](http://mothertongues.org/).
+See also [Mothertoungues.org](http://mothertongues.org/), and the dictionary app released by Språkcentrum in Östersund.
 
 Innhaldsoppdateringar:
+
 * via pahkat
 * default: stabil, kvar fjerde veke/ein gong i veka
 
-Tekniske spesifikasjonar
-========================
+## Spesifications
 
 Dette omfattar i alle fall:
 
