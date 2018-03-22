@@ -33,6 +33,7 @@ part of the work for this section of the tender.
       how this could be used outside a research lab
     * on the other side it seems to be at the front of the research field,
       producing high quality voices
+* a fourth candidate could be [Mimic](https://mycroft.ai/documentation/mimic/)
 * other open-source engines may be suggested
 * the selection of engine must be done in cooperation with Divvun and its
   partners, as the engine used for synthesis must be the same as or compatible
