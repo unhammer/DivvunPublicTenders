@@ -1,4 +1,4 @@
-# Improved CLDR suupport in the keyboard infra
+# Improved CLDR support in the keyboard infra
 
 ## Locale support
 * support for specifying locale data in a simple (yaml) format
