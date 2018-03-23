@@ -39,6 +39,29 @@ part of the work for this section of the tender.
   partners, as the engine used for synthesis must be the same as or compatible
   with the one used for voice generation.
 
-# Integration with operating systems
+## Integration with operating systems
 
-    * closed-source integration will be accepted if required by the OS wendor
+Closed-source integration will be accepted if required by the OS wendor.
+
+## Updates
+
+TTS engine and TTS voices should be updated via a Páhkat repository & the Páhkat clients
+
+## Requirements
+
+* solid macOS programming experience
+* solid Windows programming experience
+
+**solid** = reference to at least five independent projects involving the language or platform in question.
+
+## Subproject selection criteria
+
+* none
+
+## Acceptance requirements
+
+Before delivery of final version:
+
+* user documentation
+* passing all defined tests
+* all code in Github
