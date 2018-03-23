@@ -1,9 +1,34 @@
-# Support for CLDR export to the keyboard generation infra
+# Improved CLDR suupport in the keyboard infra
 
+## Locale support
 * support for specifying locale data in a simple (yaml) format
 * export locale data in CLDR format
+* yaml support for additional Windows data
+* support for building Windows locale installers
+
+## Improved keyboard support
 * export keyboard defs in CLDR xml
 * macOS XML import
 * improved X11 support
 * improved templating based on CLDR data online
 * possibly a web-based, graphical editor for the yaml flies
+
+## Requirements
+
+* solid Python experience
+* solid macOS programming experience
+* solid Windows programming experience
+* documented knowledge about locales and keyboards in Windows, macOS and other relevant platforms + CLDR
+
+**solid** = reference to at least five independent projects involving the language or platform in question.
+
+## Subproject selection criteria
+
+* experience with similar work
+
+## Acceptance requirements
+
+Before delivery of final version:
+
+* user documentation
+* a working setup with a Páhkat repository, and working installation packages for all components
