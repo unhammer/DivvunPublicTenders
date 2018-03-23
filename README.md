@@ -3,7 +3,7 @@
 The Divvun public tender in 2018 covers the following components, further
 specified in the linked documents. The tender covers the following tasks:
 
-1.  [Support work](SupportWork.md) for existing codebase in Github (*done*)
+1.  [Support work](SupportWork.md) for existing codebase in Github
 2.  [Grammar Checker integration with MS Office](GrammarChecker.md) (*TBD*)
 3.  [Dictionary app for mobile phones](MobileDictionaries.md) (*TBD*)
 4.  Extensions to the [keyboard infra](CLDRSupport.md) (*TBD*)
