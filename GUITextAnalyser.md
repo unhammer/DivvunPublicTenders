@@ -59,3 +59,25 @@ Linguists and researchers wanting to use our analysis tools without having to co
 * tool or interface to provide user feedback - missing words, wrong analyses, etc
 * one pane for each analysis step?
     * each pane could be editable, so that corrections can be made, and the corrected data would then be used as input for the subsequent processing steps/panes?
+
+# Tender administration
+
+## Requirements
+
+* solid C/C++ experience
+* solid macOS UI programming experience
+* solid Windows UI programming experience
+
+**solid** = reference to at least five independent projects involving the language or platform in question.
+
+## Subproject selection criteria
+
+* experience with application development for Linux, macOS and Windows
+
+## Acceptance requirements
+
+Before delivery of final version:
+
+* user documentation
+* passing all defined tests
+* all code in Github
