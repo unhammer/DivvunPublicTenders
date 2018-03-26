@@ -15,6 +15,7 @@ specified in the linked documents. The tender covers the following tasks:
 10. [Web dictionary app](WebDict.md)
 11. [Word completion and prediction](WordCompletionPrediction.md)
 12. [Open-source text-to-speech](OpenSourceTSS.md)
+13. [Setup Wizards for the Páhkat clients](PahkatSetupWizards.md)
 
 The [tender admin page](TenderAdmin.md) specifies the tender process, selection
 criteria, qualifying requirements etc.
