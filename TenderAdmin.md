@@ -4,6 +4,8 @@
 
 It is possible to submit offers for a single subproject, or some subprojects, but see the note under *Selection criteria*.
 
+The Divvun group can — at its own sole discretion — decide to not purchase a given subproject from any tenderer. The final set of subprojects to actually go forward with is decided single-handedly by the Divvun group.
+
 ## Announcement area
 
 In all of EU/EEA.
@@ -11,7 +13,7 @@ In all of EU/EEA.
 ## Requirements
 
 * solid experience in the programming languages and other relevant skills needed for each subproject
-* audited xxx and tax reports for the last fiscal year
+* audited financial and tax reports for the last fiscal year
 * additional requirements listed for each subproject
 
 ## Selection criteria
