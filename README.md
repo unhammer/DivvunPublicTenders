@@ -10,7 +10,7 @@ specified in the linked documents. The tender covers the following tasks:
 5.  [Spell checking for mobile keyboards](MobileSpell.md)
 6.  [System wide spelling checkers](SystemSpellCheck.md)
 7.  [Graphical analysis app for linguists](GUITextAnalyser.md)
-8.  [REST/GraphQL API Consultancy](REST_API.md) (*TBW*)
+8.  [REST/GraphQL API Consultancy](REST_API.md)
 9.  [OmegaT integration](OmegaT.md)
 10. [Web dictionary app](WebDict.md) (*TBW*)
 11. [Word completion and prediction](WordCompletionPrediction.md)
