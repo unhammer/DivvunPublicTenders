@@ -35,32 +35,3 @@ Korleis skal grammatikkontrollen oppføra seg?
 * den ferdige koden skal vera © UiT
 
 Alt i alt: han skal mest mogleg likna på den vanlege grammatikkontrollen.
-
-
-Utlysing
-========
-
-I heile EU/EØS-området (minst).
-
-Utveljingskriterium
--------------------
-
-1. pris
-*  integreringskvalitet (kor mykje liknar det på den *vanlege*
-   grammatikkontrollen?)
-*  tidlegare røynsle
-*  innahusrøynsle i relevante programmeringsspråk
-*  tidlegare røynsle med språkteknologiske produkt
-*  realistisk prosjektplan
-*  økonomisk soliditet?
-
-Akseptanskrav
-=============
-
-* koden finst på Github.com/Divvun
-* koden byggjer for begge plattformar
-* koden passerer alle definerte testar
-* koden passerer code review - vi vil ha kode som vi kan halda ved like sjølv
-* grammatikkontrollen fungerer etter spesifikasjonane
-* enkle grammatikkontrollar for andre språk fungerer, dvs koden er språkuavhengig, inklusive alle språk vi har tastatur eller analysatorar for (dvs slike som ikkje har kode i MS Office)
-* all funksjonalitet i libdivvun-gramcheck er tilgjengeleg via funksjonelle grensesnitt

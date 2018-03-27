@@ -88,11 +88,6 @@ All grammatikkontrollfunksjonalitet er definert av og blir levert av biblioteket
 
 API-en for `divvun-gramcheck` er definert i [checker.hpp](https://github.com/divvun/divvun-gramcheck/blob/master/src/checker.hpp) / [checkertypes.hpp](https://github.com/divvun/divvun-gramcheck/blob/master/src/checkertypes.hpp). All kode er open kjeldekode, og anten C eller C++. Koden byggjer og fungerer på både Windows og macOS (og Linux).
 
-# Front-end
-
-The front-end code should be based on the
-[GrammarSoft frontend code](https://github.com/GrammarSoft/proofing-gasmso), but reworked so that it can also run offline.
-
 # Språklege ressursar
 
 Dei språklege ressursane som trengst for å byggja grammatikkontrollen for nordsamisk (og alle andre språk) blir leverte av Divvun-gruppa via Giella-intrastrukturen. For nordsamisk betyr dette i praksis at Divvun leverer ei ferdig bygd fil `se.zcheck`. All språkleg funksjonalitet er inkludert i denne fila, inklusive feilmeldingar og tilbakemeldingar til brukarane.
