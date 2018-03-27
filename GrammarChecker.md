@@ -1,6 +1,6 @@
-# Grammar Checker integration with MS Office
+# Grammar Checker integration with MS Office and Google apps
 
-* [Word integration](Word-integrering.md) (in Norwegian for now)
+* [Word integration background](Word-integrering.md) (in Norwegian for now)
 * [Grammar checker UI and behavior](Spesifikasjon.md) (in Norwegian for now)
 
 ## Front-end
@@ -29,7 +29,7 @@ The front-end code should be based on the
 
 * experience with similar work — XXX
 * experience with language technology projects
-* realistic and sound project plan****
+* realistic and sound project plan — XXX
 
 ## Acceptance requirements
 
