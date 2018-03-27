@@ -13,8 +13,7 @@ Hovudkrav
 Korleis skal grammatikkontrollen oppføra seg?
 
 * skal byggja på biblioteket laga av [Trigram](https://trigram.no/) i fase 1 av prosjektet
-* skal fungera med alle samiske språk
-  * sekundært: skal fungera med alle språk vi har (dvs inkl slike som ikkje MS har på lista si)
+* skal fungera med alle språk, inkl slike som ikkje MS har på lista si
 * skal fungera på Windows og macOS
 * dersom han blir bygd med office.js eller tilsvarande teknologi, så må han kunna fungera utan nett
 * må kunna senda avsnitt inn til divvun-gramcheck-biblioteket og tolka ei returnert liste med feil, der kvar feil refererer til start- og sluttpunkt i avsnittet
