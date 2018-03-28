@@ -5,7 +5,7 @@ This subproject should take our grammar checker library and turn it into a funct
 ## Front-end
 
 The front-end code should be based on the
-[GrammarSoft frontend code](https://github.com/GrammarSoft/proofing-gasmso), but reworked so that it can also run offline. More specifically, it needs to store all libraries and components locally, and use them locally, but when there is a network connection, the front-end should check with the back-end server for new versions, and if found, download and install the newer version. It should also be possible to run the grammar checker completely server-based, in cases where it is not possible to store files locally.
+[GrammarSoft frontend code](https://github.com/GrammarSoft/proofing-gasmso), but reworked so that it can also run offline. More specifically, it needs to store all libraries and components locally, and use them locally, but when there is a network connection, the front-end should check with the back-end server for new versions, and if found, download and install the newer version. It should also be possible to run the grammar checker completely server-based, in cases where it is not possible to store files locally, or running the grammar checker locally turns out to be too heavy on the platform (by some test).
 
 ### Targeted platforms/Office versions
 
