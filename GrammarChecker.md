@@ -5,7 +5,12 @@ This subproject should take our grammar checker library and turn it into a funct
 ## Front-end
 
 The front-end code should be based on the
-[GrammarSoft frontend code](https://github.com/GrammarSoft/proofing-gasmso), but reworked so that it can also run offline. More specifically, it needs to store all libraries and components locally, and use them locally, but when there is a network connection, the front-end should check with the back-end server for new versions, and if found, download and install the newer version. It should also be possible to run the grammar checker completely server-based, in cases where it is not possible to store files locally, or running the grammar checker locally turns out to be too heavy on the platform (by some test).
+[GrammarSoft frontend code](https://github.com/GrammarSoft/proofing-gasmso), but reworked so that it can also run offline. More specifically, it needs to:
+
+* store all libraries and components locally, and use them locally
+* when there is a network connection, the front-end should check with the back-end server for new versions, and if found, download and install the newer version
+* it should also be possible to run the grammar checker completely server-based, in cases where it is not possible to store files locally, or running the grammar checker locally turns out to be too heavy on the platform according to some test
+* the front-end must run server-based while downloading support files, so that end users don't have to wait for the download to finish before starting the grammar checker
 
 ### Targeted platforms/Office versions
 
@@ -18,6 +23,11 @@ The front-end code should be based on the
 ## Back-end
 
 The backend should be based on existing backends, and the communication between back-end and front-end should be similar to already working solutions. — XXX which one?
+
+The back-end must be a wrapper around [libdivvun](https://github.com/divvun/libdivvun) compiled as a grammar checker library. The back-end must:
+
+* support uploading of libraries and support files so that the front-end can run off-line
+* support version checking of libraries and support files, to facilitate uploading of new versions compared to what is already on the client
 
 The interface should also follow whatever the REST/GraphQL subproject settles on.
 
@@ -34,7 +44,7 @@ The interface should also follow whatever the REST/GraphQL subproject settles on
 * solid macOS programming experience
 * solid Windows programming experience
 
-**solid** = reference to at least five independent projects involving the language or platform in question.
+**solid** = reference to at least five independent projects involving the programming language or platform in question.
 
 ## Subproject selection criteria
 
