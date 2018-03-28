@@ -25,6 +25,13 @@ The following areas should be addressed by the tender:
     * speech synthesis (**new**)
     * corpus searches (**existing**)
 
+More specifically, the web app should be developed as a modern web app adhering to the following:
+
+* reactive patterns
+* responsive design, mobile first
+* browser compatibility: all modern browsers plus IE11
+* one single webapp for all browser and platforms
+
 Whether to replace or keep the present backend is up to the tenderer. Preferably both altnernatives should be presented, with a price tag for each.
 
 As the Norwegian Sámi Parliament is a stakeholder in the project, they should also be involved in the development project via regular meetings and discussions related to functionality and user interface. The Divvun group is responsible for organising such meetings, and to ensure appropriate communication between the tender winner and the Sámi Parliament.
