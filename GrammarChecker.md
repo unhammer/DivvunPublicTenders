@@ -1,6 +1,6 @@
 # Grammar Checker integration with MS Office and Google apps
 
-This subproject should take our grammar checker library and turn it into a functional grammar checker tool for MS Office and Google apps users.
+This subproject should take our grammar checker library and turn it into a functional grammar checker tool for MS Office and Google apps users, resembling the standard MS Office grammar checker as much as possible.
 
 ## Front-end
 
@@ -11,6 +11,16 @@ The front-end code should be based on the
 * when there is a network connection, the front-end should check with the back-end server for new versions, and if found, download and install the newer version
 * it should also be possible to run the grammar checker completely server-based, in cases where it is not possible to store files locally, or running the grammar checker locally turns out to be too heavy on the platform according to some test
 * the front-end must run server-based while downloading support files, so that end users don't have to wait for the download to finish before starting the grammar checker
+
+Functional requirements:
+
+* send and receive a paragraph of text to the back-end, and receive a list of errors such that they can be marked in the source text or highlighted in the grammar checker user interface
+* present correction suggestions containing the following:
+    * short error title
+    * one or more correction suggestions
+    * a short description of the error(s)
+    * based on user action, also a long description of the error
+* it must be possible to turn on or off checking of specific grammar errors (the list of available errors is given by the backend); cf. also the [Swedish grammar checker in MS Word](Spesifikasjon.md)
 
 ### Targeted platforms/Office versions
 

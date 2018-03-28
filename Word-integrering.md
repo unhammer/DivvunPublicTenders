@@ -1,14 +1,10 @@
 # Grammar checker background and functional definition
 
-This subproject should deliver a finished, fully functional North Sámi grammar checker resembling the standard MS Office grammar checker as much as possible within a number of given constraints.
-
-Prosjektet skal levera ein ferdig, fungerande, nordsamisk grammatikkontroll mest mogleg lik MS sin eigen grammatikkontroll. Prosjektet skal byggja på eksisterande grammatikkontrollmodular i form av `libdivvun` og grammatikkontrollfiler frå `giella-sme`, og integrera desse i MS Office for Windows og macOS. Integreringa skal vera språkuavhengig, og gjera det mogleg å laga grammatikkontrollar for alle språk. All kode for integreringa må vera open kjeldekode, og opphavsretten og eigedomsretten skal ved prosjektavslutning overførast til UiT ved Divvun-gruppa. Overføringa skal vera gjord før siste delbetaling.
-
+This subproject should deliver a finished, fully functional North Sámi grammar checker resembling the standard MS Office grammar checker as much as possible.
 
 Hovudkrav
 =========
 
-* skal fungera med alle språk, inkl slike som ikkje MS har på lista si
 * må kunna senda avsnitt inn til divvun-gramcheck-biblioteket og tolka ei returnert liste med feil, der kvar feil refererer til start- og sluttpunkt i avsnittet
 * støtta forslag; forslaga skal innehalda:
   * kort tittel
