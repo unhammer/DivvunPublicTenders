@@ -18,7 +18,7 @@
 * the details of the user interface should be worked out in cooperation between Divvun&Giellatekno and the winning tenderer
 * fuzzy match, possibly based on our speller technology, frequency ranked
 * Korp lookup if corpus for the language is available, and Internet connection is available
-* paradigm generation (off-line, fst-based)
+* paradigm/word form generation (off-line, fst-based)
     * key forms
     * full paradigm
     * which one to generate should be a user preference, or possibly a two-step process: always generate the key forms, then if the user taps on an expansion triangle or somesuch the full paradigm should be displayed
