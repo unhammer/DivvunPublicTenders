@@ -20,10 +20,23 @@ Functional requirements:
     * one or more correction suggestions
     * a short description of the error(s)
     * based on user action, also a long description of the error
-* it must be possible to turn on or off checking of specific grammar errors (the list of available errors is given by the backend); cf. also the [Swedish grammar checker in MS Word](Spesifikasjon.md)
+* it must be possible to turn on or off checking of specific grammar errors (the list of available errors is given by the backend)
+    * cf. also the [Swedish grammar checker in MS Word](Spesifikasjon.md)
+    * it should be possible to define one's own collection of grammar errors to detect
 * if at all possible:
     * green/blue underlining
     * right-click on errors should give a context menu with correction suggestions and short error title
+* the User Interface must still contain a clear and visible graphic element that unambiguously identifies the tool as comming from the Divvun group, not MS
+* to the extent possible by MS and Google's API's, the grammar checker should work in all office applications
+* it must be easy to identify the language of the text
+* it should be possible to set the language of the text to the grammar checker language, even in cases where the language is not previously known to the host app (using BCP-47 locale codes)
+* the grammar checker should only check text in the language(s) of the grammar checker
+* it should be possible to run grammar checkers for several languages at the same time - the library and the code is the same, only the linguistic files differ
+* the front-end must query the back-end for supported languages
+* on supported platforms, the grammar checker should detect language switches to and from supported languages, e.g. when the user switches keyboard language
+* all code must be Unicode safe, with support for all of it, not only the BMP
+
+See a separate document with screen shots and [UI examples](Spesifikasjon.md) for what a possible implementation could look like.
 
 ### Targeted platforms/Office versions
 
@@ -43,11 +56,6 @@ The back-end must be a wrapper around [libdivvun](https://github.com/divvun/libd
 * support version checking of libraries and support files, to facilitate uploading of new versions compared to what is already on the client
 
 The interface should also follow whatever the REST/GraphQL subproject settles on.
-
-## Further details
-
-* [UI and behavior](Spesifikasjon.md) (in Norwegian for now)
-
 
 ## Requirements
 
