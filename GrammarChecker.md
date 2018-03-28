@@ -21,6 +21,9 @@ Functional requirements:
     * a short description of the error(s)
     * based on user action, also a long description of the error
 * it must be possible to turn on or off checking of specific grammar errors (the list of available errors is given by the backend); cf. also the [Swedish grammar checker in MS Word](Spesifikasjon.md)
+* if at all possible:
+    * green/blue underlining
+    * right-click on errors should give a context menu with correction suggestions and short error title
 
 ### Targeted platforms/Office versions
 
@@ -43,7 +46,6 @@ The interface should also follow whatever the REST/GraphQL subproject settles on
 
 ## Further details
 
-* [Background and functional definition](Word-integrering.md) (in Norwegian for now)
 * [UI and behavior](Spesifikasjon.md) (in Norwegian for now)
 
 
