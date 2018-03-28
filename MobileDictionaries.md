@@ -9,6 +9,7 @@
   * Teseract? Other open-source OCR libraries?
   * Teseract needs to be trained on every font, not optimal
   * see [OCRopus ](https://en.wikipedia.org/wiki/OCRopus) for an alternative
+  * instead of an OCR library one can use OS services, if available
 * look-up words in text (using morphological analysis (+ disambiguation?) of input string)
     * preferably using OS services if available
 * look-up single words / lemmas in the dictionary (standard search)
