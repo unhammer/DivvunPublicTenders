@@ -2,19 +2,19 @@
 
 This subproject should take our grammar checker library and turn it into a functional grammar checker tool for MS Office and Google apps users, resembling the standard MS Office grammar checker as much as possible.
 
-## Front-end
+## Plugin and front-end
 
 The front-end code should be based on the
 [GrammarSoft frontend code](https://github.com/GrammarSoft/proofing-gasmso), but reworked so that it can also run offline. More specifically, it needs to:
 
-* store all libraries and components locally, and use them locally
+* store all necessary libraries and components locally, and use them locally
 * when there is a network connection, the front-end should check with the back-end server for new versions, and if found, download and install the newer version
 * it should also be possible to run the grammar checker completely server-based, in cases where it is not possible to store files locally, or running the grammar checker locally turns out to be too heavy on the platform according to some test
-* the front-end must run server-based while downloading support files, so that end users don't have to wait for the download to finish before starting the grammar checker
+* the plugin must query the central server back-end while downloading support files, so that end users don't have to wait for the download to finish before starting the grammar checker
 
 Functional requirements:
 
-* send and receive a paragraph of text to the back-end, and receive a list of errors such that they can be marked in the source text or highlighted in the grammar checker user interface
+* send and receive a paragraph of text to the locally bundled back-end (or over the net to the server, when required as described above), and receive a list of errors such that they can be marked in the source text or highlighted in the grammar checker user interface
 * present correction suggestions containing the following:
     * short error title
     * one or more correction suggestions
@@ -33,6 +33,7 @@ Functional requirements:
 * the grammar checker should only check text in the language(s) of the grammar checker
 * it should be possible to run grammar checkers for several languages at the same time - the library and the code is the same, only the linguistic files differ
 * the front-end must query the back-end for supported languages
+** *both the locally bundled back-end and the central server, presumably?* --KBU
 * on supported platforms, the grammar checker should detect language switches to and from supported languages, e.g. when the user switches keyboard language
 * all code must be Unicode safe, with support for all of it, not only the BMP
 
@@ -46,13 +47,13 @@ See a separate document with screen shots and [UI examples](Spesifikasjon.md) fo
 * MS Office Online
 * Google Apps
 
-## Back-end
+## Server back-end
 
-The backend should be based on existing backends, and the communication between back-end and front-end should be similar to already working solutions. — XXX which one?
+The server should be based on existing backends, and the communication between server and plugin should be similar to already working solutions. — XXX which one?
 
-The back-end must be a wrapper around [libdivvun](https://github.com/divvun/libdivvun) compiled as a grammar checker library. The back-end must:
+The server must be a wrapper around [libdivvun](https://github.com/divvun/libdivvun) compiled as a grammar checker library. The server must:
 
-* support uploading of libraries and support files so that the front-end can run off-line
+* support uploading of libraries and support files so that the plugin can run off-line
 * support version checking of libraries and support files, to facilitate uploading of new versions compared to what is already on the client
 
 The interface should also follow whatever the REST/GraphQL subproject settles on.
